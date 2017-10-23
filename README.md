@@ -26,5 +26,7 @@ In order to add new routes with views, do the following steps:
 - Node.js;
 - Express;
 - EJS;
-- Morgan (logger).
+- Morgan (logger);
+- Mocha (unit test);
+- Postman (test).
 
