@@ -2,10 +2,19 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='css/style.css' />
+    <link rel='stylesheet' href='css/materialize.min.css' />
+    <link rel='stylesheet' href='css/font-awesome.min.css' />
   </head>
   <body>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <p>Welcome to <%= title %>
+      <i class="fa fa-camera-retro fa-5x"></i>
+      <i class="fa fa-address-book fa-5x"></i>
+      <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
+    </p>
+  <!-- TODO download jquery.min  -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
 </html>
